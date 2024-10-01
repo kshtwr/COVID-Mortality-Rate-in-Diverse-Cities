@@ -1,20 +1,43 @@
-This is your group repo for your final project for COGS108.
+# COVID-19 Data Science Project: Do Diverse Cities Have Higher COVID-19 Mortality? 
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+## Research Question
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+What is the relationship between the racial backgrounds and urbanization levels of western and eastern states, and what is their effect on COVID-19 mortality rates in the USA?
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+## Overview
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+This data science project investigates the relationship between racial demographics, urbanization levels, and COVID-19 death rates across different U.S. counties. The goal is to analyze whether factors like race and urbanization correlate with higher COVID-19 mortality rates and to provide insights that can inform future health interventions.
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+## Key Insights
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+- **Demographic Analysis**: Explored correlations between the racial composition of counties and COVID-19 death rates.
+- **Urbanization Impact**: Analyzed how urbanization levels affect COVID-19 outcomes across states.
+- **Geospatial Mapping**: Used geospatial data to visualize and compare coastal regions (East vs. West) in terms of COVID-19 impact.
+- **Statistical Methods**: Applied linear regression and exploratory data analysis (EDA) techniques to uncover significant patterns.
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+## Methodology
+
+1. **Data Cleaning**: Pre-processed county-level COVID-19 data and demographic information.
+2. **Visualization**: Created informative graphs and maps to illustrate trends.
+3. **Analysis**: Focused on correlations and urbanization impact using linear regression.
+4. **Geospatial Mapping**: Visualized differences in COVID-19 rates across coastal regions.
+
+## Tools & Technologies
+
+- **Python**: For data analysis, cleaning, and visualization.
+- **Libraries**:
+  - pandas, matplotlib, seaborn for data manipulation and visualization.
+  - geopandas, plotly for geospatial analysis and mapping.
+- **Jupyter Notebook**: For documenting the project and interactive analysis.
+
+## Results
+
+- No strong trends emerged between urbanization and COVID-19 death rates.
+- Some correlations between racial demographics and COVID-19 mortality rates, but additional factors (e.g., healthcare access) may play a stronger role.
+- The analysis suggests that government responses to healthcare crises should consider racial and urbanization factors.
+
+## Future Work
+
+- Incorporate additional confounding variables (e.g., healthcare access, vaccination rates) for a more robust analysis.
+- Perform a deeper geospatial analysis to identify regional health disparities.
